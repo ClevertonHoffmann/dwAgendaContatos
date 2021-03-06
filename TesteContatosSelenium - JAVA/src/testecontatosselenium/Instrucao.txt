@@ -1,0 +1,1 @@
+Ao executar arquivo de teste deverá alterar comando de busca json, na classe PersistenciaContatos de acordo com o local em que se encontra o projeto. 

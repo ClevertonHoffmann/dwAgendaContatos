@@ -6,9 +6,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 <?php
+$iSize = 1;
 $aCONTATOS  = session()->get('CONTATOS');
 if (isset($aCONTATOS)) {
+    if(isset(end($aCONTATOS)['txtId'])){
     $iSize = end($aCONTATOS)['txtId'] + 1;
+    }
 } else {
     $iSize = 1;
 }
